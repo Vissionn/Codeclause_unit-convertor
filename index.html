@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div class="converter">
+        <h1 class="heading">Length Converter</h1>
+        <label>From: </label>
+        <input type="number" id="from-value">
+        <select id="from-unit">
+          <option value="m">Meters</option>
+          <option value="cm">Centimeters</option>
+          <option value="in">Inches</option>
+          <option value="ft">Feet</option>
+          <option value="kl">Kilometer</option>
+          <option value="mm">Millimeter</option>
+          <option value="mc">Micrometer</option>
+          <!-- <option value="Nn">Nanometer</option> -->
+          <option value="Ml">Mile</option>
+          <option value="Yd">Yard</option>
+        </select>
+        <br><br><br>
+        <label>To:</label>
+        <input type="number" id="to-value" readonly Unit-display>
+        <select id="to-unit">
+          <option value="m">Meters</option>
+          <option value="cm">Centimeters</option>
+          <option value="in">Inches</option>
+          <option value="ft">Feet</option>
+          <option value="kl">Kilometer</option>
+          <option value="mm">Millimeter</option>
+          <option value="mc">Micrometer</option>
+          <!-- <option value="Nn">Nanometer</option> -->
+          <option value="Ml">Mile</option>
+          <option value="Yd">Yard</option>
+        </select>
+        <!-- <br>
+        <button data-btn>Convert</button> -->
+      </div>
+
+    </div>
+ 
+    <script src="script1.js"></script>
+  </body>
+</html>
